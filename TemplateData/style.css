@@ -21,3 +21,12 @@ body {
   background-image: url("../img/background.jpg");
   /*background-image: url("http://www.planwallpaper.com/static/images/space-wallpaper2.jpg");*/
 }
+
+h1 {
+    color: #ffffff;
+
+}
+
+#tips{
+	position: absolute; top: 90%; left: 40%;
+}
