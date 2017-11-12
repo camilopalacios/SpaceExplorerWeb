@@ -26,17 +26,20 @@ body {
   background-image: url("../img/background.jpg");
 }
 
+
 .tipsList{
 margin:0 auto;
-width:500px;
+width:1080px;
 }
 .tipsList li, .tipsList a{
 float:left;
 height:35px;
 line-height:35px;
 position:relative;
-font-size:24px;
+font-size:15px;
 margin-bottom: 12px;
+margin-left: 20px;
+margin-right: 20px;
 font-family: 'Raleway', sans-serif;
 transition: background-color 1.5s ease;
 }
