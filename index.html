@@ -14,13 +14,20 @@
   </head>
   <body>
     <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <!-- <div id="gameContainer" style="width: 960px; height: 600px"></div> -->
+      <div id="gameContainer"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">SpaceAndShips</div>
+        <div class="title">Space Explorer</div>
       </div>
     </div>
-    <div id="tips"><h1>Tips:<br>* Use the cursor to aim the ship<br>* Use left shift for thrust<br>* Use W,A,S,D for movement</h1></div>>
+    <div id="tips">
+      <ul class="tipsList">
+        <li><a href="#">Use the <b>Cursor</b> to aim the ship</a></li>
+        <li><a href="#">Use <b>Left Shift</b> for thrust forward</a></li>
+        <li><a href="#">Use <b>W</b>,<b>A</b>,<b>S</b>,<b>D</b> for movement</a></li>
+      </ul>
+    </div>
   </body>
 </html>
