@@ -20,7 +20,7 @@
 /*.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}*/
 .fullscreen {height: 38px; width: 38px; background: transparent center no-repeat; background-image: url('fullscreen.png');}
 #gameContainer {
-  width: 960px;
+  width: 964px;
   height: 600px;
 }
 
