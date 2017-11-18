@@ -13,19 +13,19 @@
     </script>
   </head>
   <body>
+	<div class="cockpit-frame">
+		<img src="img/Frame.png" alt="Frame">
+	</div>
     <div class="webgl-content">
-      <!-- <div id="gameContainer" style="width: 960px; height: 600px"></div> -->
       <div id="gameContainer"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Space Explorer</div>
-      </div>
     </div>
+	<!--<div class="webgl-logo"></div>-->
+	
     <div id="tips">
       <div class="tipsList">
         <a href="#">Use the <b>Cursor</b> to aim the ship</a> <a href="#">Use <b>Left Shift</b> to thrust forward</a> <a href="#">Use <b>W</b>,<b>A</b>,<b>S</b>,<b>D</b> for movement</a>
       </div>
     </div>
+	<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
   </body>
 </html>
