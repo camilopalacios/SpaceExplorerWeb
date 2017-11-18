@@ -18,7 +18,21 @@
 .webgl-logo {height: 39px;display: inline-block;background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right; color: #ffffff;}
 /*.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}*/
-.fullscreen {height: 38px; width: 38px; background: transparent center no-repeat; background-image: url('fullscreen.png');}
+
+.fullscreen {
+  z-index: 3;
+  position: absolute;
+  top: 50%; left: 50%;
+  /*-webkit-transform: translate(500%, 910%);*/
+  transform: translate(115%, 400%);
+
+  height: 80px;
+  background: transparent center no-repeat;
+  background-image: url('fullscreen.png');
+  color: #a3acba;
+  display: inline-block;
+}
+
 #gameContainer {
   width: 964px;
   height: 600px;
@@ -28,7 +42,16 @@ body {
   background-image: url("../img/background.jpg");
 }
 
-.cockpit-frame {z-index: 2; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width:1400px; height: 1000px; pointer-events: none;}
+.cockpit-frame {
+  z-index: 2;
+  position: absolute;
+  top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width:1400px;
+  height: 1000px;
+  pointer-events: none;
+}
 
 .tipsList{
 margin:0 auto;
